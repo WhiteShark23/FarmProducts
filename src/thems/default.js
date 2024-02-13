@@ -1,0 +1,18 @@
+export const defaultTheme = {
+  colorNightRider: "#333333",
+  colorWhite: "#ffffff",
+  colorWhiteSmoke: "#f6f6f6",
+  colorPattensBlue: "#d8ecfe",
+  colorWillowBrook: "#e1edce",
+  colorChelseaCucumber: "#88aa4d",
+  colorRemy: "#f8ddd7",
+  colorOutrageousOrange: "#f75531",
+  colorNeonCarrot: "#fc9b27",
+  pagePadding: "90px",
+  indent: "20px",
+  fontFamily: '"Inter", "Arial", sans-serif',
+  fontSizeDefault: "18px",
+  pageWidth: "1280px",
+  headerHeight: "80px",
+  footerHeight: "80px",
+};

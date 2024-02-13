@@ -1,0 +1,19 @@
+import React from "react";
+import { Ul } from "../../styled";
+import { Option, Property } from "./styled";
+
+export default function OptionsList({ list = [], delimeter = ": " }) {
+  return (
+    <Ul>
+      {list.map((option, index) => (
+        <Option key={`tab${index * 10}`}>
+          <Property>
+            {option.property}
+            {delimeter}
+          </Property>
+          {option.value}
+        </Option>
+      ))}
+    </Ul>
+  );
+}
